@@ -55,6 +55,8 @@ CONFIG_DEFAULT_IOSCHED="cfq"
 #
 # Kernel Tweaks
 #
+CONFIG_MSM_CPU_VOLTAGE_CONTROL=y
+CONFIG_FORCE_FAST_CHARGE=y
 
 #
 # Shamu General Configs
