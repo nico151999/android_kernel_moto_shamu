@@ -385,12 +385,12 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Wno-format-security \
 		   -Wno-declaration-after-statement -Wno-unused-variable -Wno-parentheses -Wno-misleading-indentation \
 		   -Wno-array-bounds -Wno-discarded-array-qualifiers -Wno-bool-compare -Wno-tautological-compare \
-		   -mtune=cortex-a15 \
+		   -mtune=cortex-a15 -mfpu=neon-vfpv4 \
 		   -fmodulo-sched -fmodulo-sched-allow-regmoves -fno-tree-vectorize -ffast-math \
 		   -funswitch-loops -fpredictive-commoning -fgcse-after-reload \
 		   -fno-aggressive-loop-optimizations \
 		   -fno-delete-null-pointer-checks \
-		   -std=gnu89
+		   -std=gnu89 -fno-pic
 
 KBUILD_AFLAGS_KERNEL :=
 KBUILD_CFLAGS_KERNEL :=
