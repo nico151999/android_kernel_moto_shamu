@@ -42,6 +42,8 @@ CONFIG_DEFAULT_TCP_CONG="cubic"
 #
 # Kernel Tweaks
 #
+CONFIG_MSM_CPU_VOLTAGE_CONTROL=y
+CONFIG_FORCE_FAST_CHARGE=y
 
 #
 # Shamu General Configs
